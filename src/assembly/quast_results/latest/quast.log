@@ -1,0 +1,53 @@
+/gfs/progs/quast-4.6.0/quast.py Helico_N1_uniform.fna
+
+Version: 4.6.0, 22f3f69
+
+System information:
+  OS: Linux-4.9.0-8-amd64-x86_64-with-debian-9.6 (linux_64)
+  Python version: 2.7.13
+  CPUs number: 2
+
+Started: 2018-12-03 08:57:12
+
+Logging to /gfs/data/assembly/quast_results/results_2018_12_03_08_57_12/quast.log
+NOTICE: Maximum number of threads is set to 1 (use --threads option to set it manually)
+
+CWD: /gfs/data/assembly
+Main parameters: 
+  Threads: 1, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+WARNING: Can't draw plots: python-matplotlib is missing or corrupted.
+
+Contigs:
+  Pre-processing...
+  Helico_N1_uniform.fna ==> Helico_N1_uniform
+
+2018-12-03 08:57:12
+Running Basic statistics processor...
+  Contig files: 
+    Helico_N1_uniform
+  Calculating N50 and L50...
+    Helico_N1_uniform, N50 = 1576758, L50 = 1, Total length = 1576758, GC % = 39.16, # N's per 100 kbp =  0.00
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2018-12-03 08:57:12
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 1: Creating Icarus viewers...
+Done
+
+2018-12-03 08:57:12
+RESULTS:
+  Text versions of total report are saved to /gfs/data/assembly/quast_results/results_2018_12_03_08_57_12/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /gfs/data/assembly/quast_results/results_2018_12_03_08_57_12/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /gfs/data/assembly/quast_results/results_2018_12_03_08_57_12/report.html
+  Icarus (contig browser) is saved to /gfs/data/assembly/quast_results/results_2018_12_03_08_57_12/icarus.html
+  Log saved to /gfs/data/assembly/quast_results/results_2018_12_03_08_57_12/quast.log
+
+Finished: 2018-12-03 08:57:12
+Elapsed time: 0:00:00.394229
+NOTICEs: 2; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
